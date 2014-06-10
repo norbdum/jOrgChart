@@ -213,7 +213,7 @@
         $.each(classList, function(index,item) {
             if (item == 'collapsed') {
                 console.log($node);
-                $nodeRow.nextAll('tr').css('visibility', 'hidden');
+                $nodeRow.nextAll('tr').css('display', 'none');
                     $nodeRow.removeClass('expanded');
                     $nodeRow.addClass('contracted');
                     $nodeDiv.css('cursor','s-resize');
